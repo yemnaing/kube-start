@@ -8,7 +8,7 @@ The location and script name is already defined by service unit as /usr/local/bi
 
 chmod 744 /usr/local/bin/kube-start.sh
 
-# chmod 664 /etc/systemd/system/disk-space-check.service
+# chmod 664 /etc/systemd/system/kubestart.service
 # systemctl daemon-reload
 # systemctl enable kubestart.service
 Created symlink from /etc/systemd/system/default.target.wants/kubestart.service to /etc/systemd/system/kubestart.service.
